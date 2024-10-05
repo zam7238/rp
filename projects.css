@@ -1,0 +1,42 @@
+*{font-family: "Quicksand", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal; margin: 0; ;}
+body{ background-color: rgb(200, 20, 220);}
+.links{background-image: none; text-decoration: none;}
+.link1{color: rgb(0, 234, 255); font-size: 70px; background-image: none; text-decoration: none; animation-name: changeb; animation-duration: 5s; animation-iteration-count: infinite; animation-direction: normal;}
+@keyframes changeb {
+    from{color: blue;}
+    25%{color: rgb(0, 94, 255)}
+    50%{color: rgb(0,174, 255)}
+    70%{color: rgb(0, 106, 255)}
+    to{color: blue;}
+}
+.linkss{background-image: none; text-decoration: none; font-size: 45px; color: rgb(0, 00, 255); margin-left: 200px; font-weight: 1000;}
+.title{text-align: center; color: #ffffffff; font-size: 80px; text-shadow: 5px black;}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next,.swiper-button-prev{
+  color: blue;
+  background-color: none;
+  margin-top: 10px;
+}
+.sb{background-color: none;}
+@media(max-width: 1000px){
+  .title{font-size: 65px}
+  .link1{font-size: 43px; margin: 0; margin-left: 2px;}
+  .linkss{font-size: 20px; margin: 0; margin-left: 7px;}
+  video{max-width: 250px}
+  .swiper-slide h1{font-size: 20px}
+  .one{margin-top: 150px}
+  .three{margin-top: 90px}
+}
